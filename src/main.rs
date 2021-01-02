@@ -1,5 +1,6 @@
 use select::document::Document;
 use select::predicate::*;
+//use std::time::Duration
 
 
 #[macro_use] extern crate log;
@@ -51,6 +52,7 @@ fn submit_form() {
     // let proxy = reqwest::Proxy::http("https://secure.example")?;
     // let params = [("foo", "bar"), ("baz", "quux")];
     // let client = reqwest::Client::builder()
+    //     .timeout(Duration::from_millis(500))
     //     .proxy(proxy)
     //     .cookie_store(true)
     //     .build()?;
