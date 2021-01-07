@@ -6,6 +6,7 @@ use select::predicate::*;
 #[macro_use] extern crate log;
 
 fn main() {
+    // let client = reqwest::blocking::Client::new();
     // let url = "http://sistemas.cobrasin.com.br/multas-municipe/home.action?municipio=8"
     pretty_env_logger::init();
 
